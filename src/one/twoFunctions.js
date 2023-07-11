@@ -1,5 +1,8 @@
 const num1 = 10;
 const num2 = 20;
+
+console.log(name);
+
 function sum(n1, n2) {
     const result = n1 + n2;
     return result;

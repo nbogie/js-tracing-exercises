@@ -1,0 +1,6 @@
+{
+    "extends": "../../jsconfig-template/jsconfig.json",
+    "compilerOptions": {
+        // Additional or overriding compiler options specific to this subdirectory
+    }
+}

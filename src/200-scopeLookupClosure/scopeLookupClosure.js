@@ -1,17 +1,17 @@
 //@ts-check
 const n1 = 10;
 const n2 = 20;
-const name = "larry";
+const friend = "larry";
 function enclosingFunction() {
-    const name = "curly";
+    const friend = "curly";
 
     function mySum(a, b) {
         const result = a + b;
-        const x = name;
+        const x = friend;
         return result;
     }
     function myCalcAverage(a, b) {
-        const name = "moe";
+        const friend = "moe";
         const total = mySum(a, b);
         return total / 2;
     }

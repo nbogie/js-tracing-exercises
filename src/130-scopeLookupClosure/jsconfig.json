@@ -1,10 +1,6 @@
 {
+    "extends": "../../jsconfig-template/jsconfig.json",
     "compilerOptions": {
-        "target": "ES2020",
-        "lib": ["ES2020", "DOM"], // "DOM" for console?
-        "checkJs": true,
-        "strict": true,
-        "noImplicitAny": false
-    },
-    "exclude": ["node_modules"]
+        // Additional or overriding compiler options specific to this subdirectory
+    }
 }
